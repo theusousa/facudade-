@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TETEU FLIX</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/Inserir_um_subtítulo-removebg.png" alt="Logo do Site">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Filmes</a></li>
+                <li><a href="#">Séries</a></li>
+                <li><a href="#">Minha Lista</a></li>
+            </ul>
+        </nav>
+        <div class="search-container">
+            <input type="text" id="search" placeholder="Pesquisar...">
+            <button id="search-btn">Buscar</button>
+        </div>
+    </header>
+    <main>
+        <section class="featured">
+            <h2>Em Destaque</h2>
+            <div class="video" data-title="Título do Vídeo em Destaque">
+                <video controls autoplay muted>
+                    <source src="img/As_Tartarugas_Ninja__Caos_Mutante___Teaser_Trailer_Oficial___LEG___Paramount_Pictures_Brasil720P_HD.mp4" type="video/mp4">
+                    
+                </video>
+                <div class="video-title">TARTARUGAS NINJA</div>
+            </div>
+        </section>
+        <section class="popular">
+            <h2>Filmes Populares</h2>
+            <div class="photo-grid" id="photo-grid">
+                <div class="photo" data-title="">
+                    <img src="img/novos-filmes-que-eu-mal-posso-esperar-para-ver-esse-ano-pantera-negra-wakanda-forever-20220908180449.webp" alt="">
+                    <div class="photo-title">PANTERA NEGRA </div>
+                </div>
+                <div class="photo" data-title="Título do Filme 2">
+                    <img src="img/GLtfwj0bYAAIwvi.jpeg" alt="Imagem do Filme 2">
+                    <div class="photo-title">DEADPOOL 3 </div>
+                </div>
+                <div class="photo" data-title="Título do Filme 3">
+                    <img src="img/15128_grande.jpg" alt="Imagem do Filme 3">
+                    <div class="photo-title">DIVERTIDA MENTE 2</div>
+                </div>
+                <div class="photo" data-title="Título do Filme 4">
+                    <img src="img/daylight_payoff_poster_brazil_27eb2c00.jpeg" alt="Imagem do Filme 4">
+                    <div class="photo-title">WISH</div>
+                </div>
+                <div class="photo" data-title="Título do Filme 4">
+                    <img src="img/download.jpg" alt="Imagem do Filme 4">
+                    <div class="photo-title">AVATAR</div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 TETEU FLIX. Todos os direitos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
